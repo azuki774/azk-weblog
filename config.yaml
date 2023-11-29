@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://azk-weblog.netlify.app
 languageCode: ja
 theme: hugo-theme-stack
 paginate: 5
@@ -35,11 +35,11 @@ params:
     mainSections:
         - post
     featuredImageField: image
-    rssFullContent: true
+    rssFullContent: false
     favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2023
         customText:
 
     dateFormat:
@@ -57,9 +57,9 @@ params:
     article:
         math: false
         toc: true
-        readingTime: true
+        readingTime: false
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -166,7 +166,7 @@ params:
         opengraph:
             enabled: false
             local: false
-            src:
+            src: img/NaruY3_min.png
 
     colorScheme:
         # Display toggle

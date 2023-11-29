@@ -9,7 +9,7 @@ categories = [
 tags = [
     "daily",
 ]
-image = "the-creative-exchange-d2zvqp3fpro-unsplash.jpg"
+
 +++
 
 うわ～～～～助けてくれ～～～～
