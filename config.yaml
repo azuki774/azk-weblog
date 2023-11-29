@@ -51,8 +51,8 @@ params:
         subtitle: Engineer, Gamer(Racing, FPS)
         avatar:
             enabled: true
-            local: false
-            src: static/img/NaruY3_min.png
+            local: true
+            src: img/NaruY3_min.png
 
     article:
         math: false
