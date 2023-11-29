@@ -1,7 +1,7 @@
 ---
-title: "Test"
-description: "This is an test category"
-slug: "test"
+title: "Tech"
+description: "技術的なsomething"
+slug: "tech"
 image: "image.png"
 style:
     background: "#2a9d8f"

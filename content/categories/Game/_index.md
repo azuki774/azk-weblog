@@ -1,7 +1,7 @@
 ---
-title: "Test"
-description: "This is an test category"
-slug: "test"
+title: "Game"
+description: "ゲーム系（主にPCゲー）"
+slug: "game"
 image: "image.png"
 style:
     background: "#2a9d8f"
