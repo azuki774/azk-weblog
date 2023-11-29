@@ -7,7 +7,7 @@ categories = [
     "Test"
 ]
 tags = [
-    "daily",
+    "test",
 ]
 
 +++
