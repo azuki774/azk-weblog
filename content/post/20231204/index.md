@@ -2,7 +2,7 @@
 title: 社畜スキル向上と自作家計簿システムの成長
 description: 社畜技術習得とおうち家計簿システム実装
 slug: 20231204
-date: 2023-12-04:00:00+09:00
+date: 2023-12-04T00:00:00+09:00
 categories:
     - Tech
 tags: [Go, Python, mawinter, GAS, MariaDB, metabase]
