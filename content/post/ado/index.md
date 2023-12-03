@@ -2,10 +2,10 @@
 title: 社畜スキル向上と自作家計簿システムの成長
 description: 社畜技術習得とおうち家計簿システム実装による知見が交互に生きてきた経緯
 slug: ado
-date: 2023-12-01T00:30:07+09:00
+date: 2023-12-04:00:00+09:00
 categories:
     - Tech
-tags: [Go, Python, mawinter, GAS, MariaDB, metabase, grafana, loki]
+tags: [Go, Python, mawinter, GAS, MariaDB, metabase]
 ---
 
 - あずきハウスでは半自動家計簿システムを作って、3年ぐらい運用しています。
@@ -25,6 +25,8 @@ tags: [Go, Python, mawinter, GAS, MariaDB, metabase, grafana, loki]
 ### 構成
 Googleスプレッドシート
 
+![de1](de1.png)
+
 ### 説明
 - スプレッドシートに1列にカテゴリ（食費、とか）と金額と料金を書いていって、シート内の関数で集計するだけのもの
 - 要するにエクセル集計
@@ -41,6 +43,9 @@ Googleスプレッドシート
 
 ### 構成
 Googleフォーム + Googleスプレッドシート + GAS
+
+![de2](de2.png)
+（移せるところがないかも）
 
 ### 説明
 - 集計部分は先程と同じ
@@ -88,8 +93,11 @@ APIサーバ + DB + Googleスプレッドシート + Googleフォーム
 ### 構成
 APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、データ新規登録、一部閲覧用）
 
+![de4](de4.png)
+
 ### 説明
-- データの入力がついに自作ページになった。
+- データの入力がついに自作ページ(Flask)になった。
+    - https://github.com/azuki774/mawinter-web-py
 - フロントは一切書いたことがなかったので、本当に2000年初頭のプログラミング講座みたいな殺風景なページになってしまっている。
 - APIサーバへのデータ授受は問題なく完成したので、一旦は目的の機能を自前実装することが出来た（嬉しい！）。
 - その後、[みすてむず](https://misskey.systems) の方にも色々聞いて、bootstrapを導入した
@@ -111,6 +119,8 @@ APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、デ�
 
 ### 構成
 APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、データ新規登録、一部閲覧用）+ マネーフォワード
+
+![de5](de5.png)
 
 ### 説明
 - マネーフォワードを使って、各種金融機関から情報を取得（要するに普通に使う）
@@ -139,6 +149,9 @@ APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、デ�
 
 ### 構成
 APIサーバ + DB + Webサーバ（Flask、データ新規登録、一部閲覧用）+ metabase + マネーフォワード
+
+![de6](de6.jpg)
+
 
 ### 説明
 - [metabase](https://www.metabase.com)を使って、Googleスプレッドシートではなく、簡易BIツールで集計管理するようにした。
