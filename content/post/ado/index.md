@@ -25,7 +25,7 @@ tags: [Go, Python, mawinter, GAS, MariaDB, metabase]
 ### 構成
 Googleスプレッドシート
 
-![de1](de1.png)
+![](de1.png)
 
 ### 説明
 - スプレッドシートに1列にカテゴリ（食費、とか）と金額と料金を書いていって、シート内の関数で集計するだけのもの
@@ -44,7 +44,7 @@ Googleスプレッドシート
 ### 構成
 Googleフォーム + Googleスプレッドシート + GAS
 
-![de2](de2.png)
+![Googleスプレッドシート](de2.png)
 （移せるところがないかも）
 
 ### 説明
@@ -93,7 +93,7 @@ APIサーバ + DB + Googleスプレッドシート + Googleフォーム
 ### 構成
 APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、データ新規登録、一部閲覧用）
 
-![de4](de4.png)
+![それっぽくなったWeb画面](de4.png)
 
 ### 説明
 - データの入力がついに自作ページ(Flask)になった。
@@ -120,7 +120,7 @@ APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、デ�
 ### 構成
 APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、データ新規登録、一部閲覧用）+ マネーフォワード
 
-![de5](de5.png)
+![マネーフォワードのデータを一旦DBに叩き込む](de5.png)
 
 ### 説明
 - マネーフォワードを使って、各種金融機関から情報を取得（要するに普通に使う）
@@ -150,8 +150,9 @@ APIサーバ + DB + Googleスプレッドシート + Webサーバ（Flask、デ�
 ### 構成
 APIサーバ + DB + Webサーバ（Flask、データ新規登録、一部閲覧用）+ metabase + マネーフォワード
 
-![de6](de6.jpg)
+![分類別のそれっぽい支出比率](de6.jpg)
 
+![システム的な簡易構成図](de6-2.PNG)
 
 ### 説明
 - [metabase](https://www.metabase.com)を使って、Googleスプレッドシートではなく、簡易BIツールで集計管理するようにした。
