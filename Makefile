@@ -1,6 +1,9 @@
 YYYYMMDD := $(shell date '+%Y%m%d')
 
-.PHONY: daily
+.PHONY: start daily
+
+start:
+	hugo server
 
 daily:
 	git switch master
