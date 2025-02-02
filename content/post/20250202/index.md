@@ -1,6 +1,6 @@
 ---
-title: 20250202
-description: 
+title: 牧歌的ってさ
+description: 私も90s生まれなんだよな
 slug: 20250202
 date: 2025-02-02T11:17:40+09:00
 categories:
