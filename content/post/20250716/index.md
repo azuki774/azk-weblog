@@ -90,7 +90,7 @@ nodes:
 下記コマンドを打つだけで、マルチノードなクラスタが立ち上がります。
 
 ```
-% kind create cluster multi-node.yaml
+% kind create cluster --config multi-node.yaml
 Creating cluster "kind" ...
  ✓ Ensuring node image (kindest/node:v1.33.1) 🖼
  ✓ Preparing nodes 📦 📦 📦 📦
