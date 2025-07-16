@@ -1,6 +1,6 @@
 ---
 title: kube-schedular 実装する(1)
-description: で超手抜き kube-schedular を実装してみよう
+description: 超手抜き kube-schedular を実装してみよう
 slug: 20250716
 date: 2025-07-16T18:20:00+09:00
 categories:
