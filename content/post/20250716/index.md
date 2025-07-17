@@ -1,6 +1,6 @@
 ---
-title: kube-schedular 実装する(1)
-description: 超手抜き kube-schedular を実装してみよう
+title: kube-scheduler 実装する(1)
+description: 超手抜き kube-scheduler を実装してみよう
 slug: 20250716
 date: 2025-07-16T18:20:00+09:00
 categories:
@@ -190,4 +190,4 @@ Starting to serve on 127.0.0.1:8001
 
 ---
 
-というわけで、次回からは Go を利用して kube-scheduler を実装するための準備を指定いこうと思います。
+というわけで、次回からは Go を利用して kube-scheduler を実装するための準備をしていこうと思います。
