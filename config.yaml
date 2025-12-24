@@ -196,13 +196,13 @@ menu:
 
         - identifier: fediverse (1)
           name: fediverse-1
-          url: https://mkkey.net/@azuki
+          url: https://azkey.azuki.blue/@azuki
           params:
               icon: brand-twitter
 
         - identifier: fediverse (2)
           name: fediverse-2
-          url: https://misskey.systems/@azuki
+          url: https://mkkey.net/@azuki
           params:
               icon: brand-twitter
 
