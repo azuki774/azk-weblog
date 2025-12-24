@@ -1,6 +1,6 @@
 ---
-title: 20251223
-description: 2025年 まとめ
+title: 2025年 まとめ
+description: 近年まれにみる比較的いい年
 slug: 20251223
 date: 2025-12-23T18:55:11+09:00
 categories:
